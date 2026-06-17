@@ -1,0 +1,115 @@
+.inicio {
+  display: grid;
+  gap: 2rem;
+}
+
+.hero {
+  padding: clamp(2rem, 5vw, 4rem);
+  border: 1px solid rgba(215, 255, 90, 0.24);
+  border-radius: 28px;
+  background:
+    linear-gradient(120deg, rgba(8, 17, 12, 0.65), rgba(16, 63, 24, 0.5)),
+    url("https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&w=1400&q=80") center/cover;
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.35);
+}
+
+.pretitulo {
+  margin: 0 0 0.65rem;
+  color: #d7ff5a;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 10vw, 6.5rem);
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.hero p:not(.pretitulo) {
+  max-width: 720px;
+  color: #e4f0df;
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
+.acciones {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.botonPrincipal,
+.botonSecundario {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 800;
+}
+
+.botonPrincipal {
+  background: #d7ff5a;
+  color: #08110c;
+}
+
+.botonSecundario {
+  border: 1px solid rgba(215, 255, 90, 0.55);
+  color: #d7ff5a;
+}
+
+.paneles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.panel {
+  padding: 1.3rem;
+  border: 1px solid rgba(215, 255, 90, 0.16);
+  border-radius: 20px;
+  background: rgba(13, 30, 17, 0.78);
+}
+
+.panel span {
+  display: inline-grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border: 2px solid #d7ff5a;
+  color: #d7ff5a;
+  font-weight: 900;
+}
+
+.panel h2 {
+  margin: 0 0 0.65rem;
+}
+
+.panel p {
+  margin: 0;
+  color: #c8ddc5;
+  line-height: 1.6;
+}
+
+.destacado {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.75fr) minmax(280px, 1fr);
+  gap: 1.3rem;
+  align-items: start;
+}
+
+.destacado h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+}
+
+@media (max-width: 760px) {
+  .destacado {
+    grid-template-columns: 1fr;
+  }
+}
