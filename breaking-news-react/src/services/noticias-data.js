@@ -27,4 +27,18 @@ export const noticiasQuimica = [
     descripcion: "Las bases de datos químicas permiten consultar fórmulas moleculares y pesos moleculares para estudiar sustancias comunes.",
     imagen: "https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?auto=format&fit=crop&w=900&q=80",
   },
+  {
+    titulo: "Impacto en 'Record of Ragnarok': El trágico desenlace de Nikola Tesla en la octava ronda",
+    categoria: "Anime",
+    fecha: "17 de junio de 2025",
+    descripcion: "En un clímax narrativo que conmocionó a los seguidores de la franquicia, el aclamado inventor culminó su épico enfrentamiento contra Belcebú. La caída de Tesla marca un punto de inflexión decisivo para el destino de la humanidad en el torneo.",
+    imagen: "https://i.ytimg.com/vi/jA10SDqqOWw/sddefault.jpg"
+  },
+  {
+    titulo: "Hito científico en 'Dr. Stone': El Reino de la Ciencia conquista el espacio exterior",
+    categoria: "Anime",
+    fecha: "17 de junio de 2026",
+    descripcion: "Culminando años de ardua reconstrucción tecnológica desde la Edad de Piedra, Senku Ishigami y su tripulación han lanzado con éxito el primer cohete espacial post-petrificación. Esta misión sin precedentes tiene como objetivo principal confrontar al enigmático 'Why-Man' y desentrañar el origen del rayo que paralizó a la humanidad.",
+    imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsz88RRFISwDTruvDKPNeFCEv5Nd2uPDVO1s1qPx7tclhCDdVohy7SbYlA&s=10"
+  },
 ];

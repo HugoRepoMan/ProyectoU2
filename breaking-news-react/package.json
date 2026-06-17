@@ -13,19 +13,20 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
-    "vite": "latest",
+    "firebase": "^12.15.0",
+    "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-icons": "latest",
     "react-router-dom": "latest",
-    "prop-types": "latest",
-    "react-icons": "latest"
+    "vite": "latest"
   },
   "devDependencies": {
-    "vitest": "latest",
-    "jsdom": "latest",
-    "@testing-library/react": "latest",
     "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
-    "@vitest/coverage-v8": "latest"
+    "@vitest/coverage-v8": "latest",
+    "jsdom": "latest",
+    "vitest": "latest"
   }
 }

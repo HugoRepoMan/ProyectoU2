@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from "./components/layout";
-import { InicioPage, NoticiasPage, CalculadoraPage, CompuestosPage } from "./pages";
+import { InicioPage, NoticiasPage, CalculadoraPage, CompuestosPage, ComentariosPage } from "./pages";
 import "./App.css";
 
 function App() {
@@ -10,8 +10,9 @@ function App() {
         <Routes>
           <Route path="/" element={<InicioPage />} />
           <Route path="/noticias" element={<NoticiasPage />} />
-          <Route path="/calculadora" element={<CalculadoraPage />} />
+          <Route path="/calculadora" element={<CalculadoraPage />} />         
           <Route path="/compuestos" element={<CompuestosPage />} />
+          <Route path="/comentarios" element={<ComentariosPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>

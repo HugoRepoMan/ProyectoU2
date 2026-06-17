@@ -18,6 +18,7 @@ export const Header = () => {
         <NavLink to="/noticias" className={getClassName}>Noticias</NavLink>
         <NavLink to="/calculadora" className={getClassName}>Calculadora pH</NavLink>
         <NavLink to="/compuestos" className={getClassName}>Compuestos</NavLink>
+        <NavLink to="/comentarios" className={getClassName}>Comentarios</NavLink>
       </nav>
     </header>
   );

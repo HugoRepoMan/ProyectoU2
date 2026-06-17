@@ -1,0 +1,1 @@
+export { ComentariosPage } from "./comentarios";
