@@ -1,6 +1,6 @@
 # Breaking News - Portal de química
 
-Proyecto React + Vite basado en el laboratorio de componentes reutilizables. La aplicación fue transformada en un portal sencillo de noticias de química llamado **Breaking News**.
+Proyecto React + Vite basado en componentes reutilizables. La aplicación se trata de un portal sencillo de noticias de química llamado **Breaking News**.
 
 ## Funcionalidades
 
